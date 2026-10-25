@@ -15,3 +15,4 @@ Para cumplir con las pautas de la catedra, se detalla el uso critico de herramie
   2. "Necesito tres indicadores de control cuantitativos para mejorar la eficiencia de una cocina y mejor precision de stock"
 * Correcciones humanas:
   La IA propuso inicialmente incluir la caja de restaurante dentro del mismo flujo de cocina.Se corrigio separando el carril de "caja/administracion" para respetar la division formal del organigrama de la entrega 3.
+* Estado del modulo: Fase de validacion tecnica
