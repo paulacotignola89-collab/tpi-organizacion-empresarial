@@ -21,6 +21,12 @@ Para cumplir con las pautas de la catedra, se detalla el uso critico de herramie
 
 ### DESCRIPCION DEL PROBLEMA Y SOLUCION
 El restaurante familiar "El Galpon Gourmet" presentaba problemas de comunicacion entre el salon y la cocina debido al uso de anotaciones en papel. La solucion consiste en un modulo de Comandas Digitales que autoriza los pedidos mediante tablets para los mozos, los transmite a pantallas en cocina y realiza el descuento automatico de stock en tiempo real.
+### ACTORES PRINCIPALES.
+*Cliente: solicita atencion , consume y realiza el pago.
+*Mozo/salon: registra los pedidos en la tablet y sirve los platos.
+*Jefatura de cocina: visualiza las comandas y procesa las preparaciones.
+*Caja/Administracion: gestiona el cobro final y emite las facturas.
+*Sistema automatizado: procesa las validaciones de stock y la logica del negocio.
 
 ### ALCANCE FUNCIONAL
 *Carga y registro de pedidos digitales por mesa.
@@ -29,9 +35,13 @@ El restaurante familiar "El Galpon Gourmet" presentaba problemas de comunicacion
 *Notificacion en tiempo real al mozo cuando el plato esta listo.
 *Procesamiento de pagos, emision de facturas y liberacion de mesas.
 
-### ACTORES PRINCIPALES.
-*Cliente: solicita atencion , consume y realiza el pago.
-*Mozo/salon: registra los pedidos en la tablet y sirve los platos.
-*Jefatura de cocina: visualiza las comandas y procesa las preparaciones.
-*Caja/Administracion: gestiona el cobro final y emite las facturas.
-*Sistema automatizado: procesa las validaciones de stock y la logica del negocio.
+### DIAGRAMA DE PROCESOS DE NEGOCIO (BPMN)
+![Diagrama BPMN](./Diagrama-BPMN.drawio.png)
+
+### MECANISMOS DE CONTROL
+Para auditar el desempeño operativo del sistema, establecemos los siguientes estandares:
+*Ingreso digital: registro del 100% de los pedidos en forma digital para eliminar el uso de papel.
+*Velocidad de envio: transmision de comandas a la cocina en 5 segundos o menos (meta del 95% de exito).
+*Control de inventario: validacion automatica de stock basada en recetas para asegurar 100% de exactitud.
+*Calidad tecnica: ejecucion de 20 casos de prueba funcionales previos a la puesta en marcha.
+
